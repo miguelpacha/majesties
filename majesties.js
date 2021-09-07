@@ -1,6 +1,6 @@
 const NS = "http://www.w3.org/2000/svg";
 const svg = document.getElementById("svg");
-const square_size = 40;
+const square_size = 10;
 
 function drawBoard(x0, y0, w, color0, color1){ 
     function square(x, y, dark) {
